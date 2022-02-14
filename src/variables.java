@@ -48,7 +48,7 @@ public class variables {
 		System.out.println("          |    Long       | "+longSize+" bits  |           "+longMin+"   |       "+longMax+"     |");
 		System.out.println("          |    Float      | "+floatSize+" bits  |               "+floatMin+"            |          "+floatMax+"         |");
 		System.out.println("          |    Double     | "+doubleSize+" bits  |              "+doubleMin+"            |    "+doubleMax+"     |");
-		System.out.println("          |    Boolean    | "+boolSize+" bits   |               "+boolMin+"              |             "+boolMax+"              |");
+		System.out.println("          |    Boolean    | "+boolSize+" bit    |               "+boolMin+"              |             "+boolMax+"              |");
 		System.out.println("          |    Character  | "+charSize+" bits  |              "+charMin+"                   |           "+charMax+"               |");
 		System.out.println("          -----------------------------------------------------------------------------------------------");
     }
