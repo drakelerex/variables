@@ -3,8 +3,8 @@ public class variables {
     {
 		//byte
 		byte byteSize = Byte.SIZE; // This is used to find the bit size 8 bit, 16 bit, etc
-		byte byteMin = Byte.MIN_VALUE;
-		byte byteMax = Byte.MAX_VALUE;
+		byte byteMin = Byte.MIN_VALUE; // This is used to find the minimum value that byte stores
+		byte byteMax = Byte.MAX_VALUE; // This is used to find the maximum value that byte stores
 		// short
 		byte shortSize = Short.SIZE;
 		short shortMin = Short.MIN_VALUE;
@@ -50,5 +50,6 @@ public class variables {
 		System.out.println("          |    Double     | "+doubleSize+" bits  |              "+doubleMin+"            |    "+doubleMax+"     |");
 		System.out.println("          |    Boolean    | "+boolSize+" bits   |               "+boolMin+"              |             "+boolMax+"              |");
 		System.out.println("          |    Character  | "+charSize+" bits  |              "+charMin+"                   |           "+charMax+"               |");
+		System.out.println("          -----------------------------------------------------------------------------------------------");
     }
 }
